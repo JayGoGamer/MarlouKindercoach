@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    padding: 2%;
+    font-size: 5vw;
+}
+
+.header img {
+    width: 100%;
+    padding: 0 5px;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    font-size: 40px;
+    padding: 0 10px;
+}
+
+.column p {
+    font-size: 16px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
