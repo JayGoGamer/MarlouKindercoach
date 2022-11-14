@@ -1,16 +1,15 @@
 .header {
-    text-align: center;
     padding: 2%;
     font-size: 5vw;
 }
 
 .header img {
-    width: 100%;
+    width: 25%;
     padding: 0 5px;
 }
 
 .column {
-    float: left;
+    margin: auto;
     width: 45%;
     font-size: 40px;
     padding: 0 10px;
@@ -20,6 +19,18 @@
     font-size: 16px;
 }
 
+.column ul {
+    font-size: 16px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img{
+    width: 50%;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -27,7 +38,19 @@
 }
 
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+    .header {
+        text-align: center;
+    }
+
+    .header img{
+        width: 75%;
+    }
+
+    .column {
+    width: 90%;
+    }
+
+    .image img {
+        width: 100%;
+    }
 }
