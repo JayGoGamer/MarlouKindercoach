@@ -1,3 +1,7 @@
 # MarlouKindercoach
 
-Website code van de website marloukindercoach.nl
+Volledige RAW code van marloukindercoach.nl
+
+# Changelog
+
+## V1.0
