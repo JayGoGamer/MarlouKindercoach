@@ -63,6 +63,25 @@
     text-align: center;
 }
 
+.footer {
+    float: right;
+    width: 50%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f16683;
+}
+
+.footer a:visited {
+    color: #04a1df;
+}
+
+.footerimg {
+    height: 25%;
+    width: 25%;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         text-align: center;
